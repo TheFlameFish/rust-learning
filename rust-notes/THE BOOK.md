@@ -5,5 +5,11 @@ Notes from THE BOOK:
 # Chapter 1 - Getting Started
 * [[Installation]]
 * [[Cargo]]
-* [[Hello world]]
-
+* [[Project - Hello world]]
+## Chapter 2 - Guessing Game
+* [[Project - Guessing Game]]
+* [[Match statements]]
+* [[Cargo#Dependencies]]
+* [[Variables]]
+* [[Imports]]
+* [[Loops]]

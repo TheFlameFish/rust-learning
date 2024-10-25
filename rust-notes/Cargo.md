@@ -1,5 +1,10 @@
+---
+tags:
+  - C1
+  - C2
+---
 # Cargo project structure
-* `/` *(project root)*
+* `/` *(project root)* ^1c12f9
 	* `src/`
 		* *Contains the project's source code* 
 	* `target/`
@@ -51,3 +56,18 @@ If the code has changed since the last build the project will be automatically r
 
 # Project check
 `cargo check` builds the project without producing an executable file.
+
+## Dependencies
+Example in the Cargo.toml file of [[Project - Guessing Game|Guessing Game]]
+```toml
+[dependencies]
+rand = "0.8.5"
+```
+* Specifies that that project needs between 0.8.5 up to 0.9.0 of the rand(om) module.
+	* "0.8.5 is actually shorthand for ^0.8.5, which means any version that is at least 0.8.5 but below 0.9.0." - [[THE BOOK]] page 29
+
+* Crates use semantic versioning.
+
+* The automatically generated Cargo.lock file makes sure that, unless otherwise specified, the project will always use the same version of the dependency.
+
+* If you want to update the package, you can do so with `cargo update`. This will update the dependencies to the highest version allowed (In this example, at or above 0.8.5 and below 0.9.0)

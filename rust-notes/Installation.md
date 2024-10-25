@@ -1,3 +1,7 @@
+---
+tags:
+  - C1
+---
 # To install RustUp
 ## Linux/Mac
 ```bash

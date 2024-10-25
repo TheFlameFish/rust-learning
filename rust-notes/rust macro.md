@@ -1,3 +1,7 @@
+---
+tags:
+  - C19
+---
 * Different from a function
 * Indicated by an `!` after the macro name 
 * Is expanded upon in chapter 19 of [[THE BOOK]]

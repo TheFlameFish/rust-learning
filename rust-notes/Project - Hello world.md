@@ -1,3 +1,9 @@
+---
+tags:
+  - C1
+aliases:
+  - Hello World
+---
 ## The code:
 `main.rs` or `src/main.rs`
 ```rust

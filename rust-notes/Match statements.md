@@ -1,3 +1,7 @@
+---
+aliases:
+  - match
+---
 Syntax:
 ```rust
 match enum_variant {

@@ -9,8 +9,6 @@ fn main() {
 
     let mut attempts: u32 = 0;
 
-    let one: u32 = 1; // There's... probably a better way to do this...
-
     loop {
         println!("\nPlease input your guess.");
 
@@ -40,10 +38,7 @@ fn main() {
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
                 println!("You win!");
-                println!("It took you {attempts} attempt{do_s}.", do_s = match attempts.cmp(&one) {
-                    Ordering::Greater => "s",
-                    _ => "", // Default
-                });
+                println!("It took you {attempts} attempt{do_s}.", do_s = if attempts == 1 {""} else {"s"});
                 break;
             },
         }

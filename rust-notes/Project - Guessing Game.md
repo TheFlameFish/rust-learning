@@ -63,7 +63,7 @@ fn main() {
 
 
 #### Variables
-![[Variables]]
+See [[Variables]]
 
 #### Match statements
 ![[Match statements]]

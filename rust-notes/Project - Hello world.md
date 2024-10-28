@@ -14,7 +14,7 @@ fn main() {
 *This includes the hello_world and [hello_cargo](Cargo) projects*
 
 ### fn main()
-The main [[function]]; called when the project is run.
+The main [[Functions|function]]; called when the project is run.
 
 ### println!()
 A [[rust macro]], which is different from a function.

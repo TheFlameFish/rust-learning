@@ -72,7 +72,7 @@ fn main() {
 }
 ```
 
-With four loops, you can also iterate a given number of time using a range.
+With for loops, you can also iterate a given number of time using a range.
 ```rust
 fn main() {
 	for number in (1..4).rev() {

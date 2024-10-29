@@ -69,4 +69,4 @@ See [[Variables]]
 ![[Match statements]]
 
 #### Loops
-![[Loops]]
+![[Control Flow#Loops]]

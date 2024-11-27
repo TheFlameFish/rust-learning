@@ -22,3 +22,6 @@ target/
 
 # Obsidian:
 rust-notes/.obsidian
+
+# MacOS
+.DS_Store

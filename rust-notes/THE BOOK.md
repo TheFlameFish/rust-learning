@@ -6,13 +6,13 @@ Notes from THE BOOK:
 * [[Installation]]
 * [[Cargo]]
 * [[Project - Hello world]]
-## Chapter 2 - Guessing Game
+# Chapter 2 - Guessing Game
 * [[Project - Guessing Game]]
 * [[Match statements]]
 * [[Cargo#Dependencies]]
 * [[Variables]]
 * [[Imports]]
-## Chapter 3 - Common Programming Concepts
+# Chapter 3 - Common Programming Concepts
 * [[Variables]]
 	* [[Variables#Constants|Constants]]
 	* [[Variables#Shadowing|Shadowing]]
@@ -32,4 +32,6 @@ Notes from THE BOOK:
 * [[Control Flow]]
 	* [[Control Flow#If expressions|If Expressions]]
 	* [[Control Flow#Loops|Loops]]
+# Chapter 4 - Ownership
+* [[Ownership]]
 

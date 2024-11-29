@@ -111,3 +111,17 @@ fn main() {
 	println!("{word2}, {word1}!");
 }
 ```
+
+### Dereferencing
+You can also dereference references with the `*` character, which I suppose gets you the data itself rather than a reference to the data? You need to do this to, for example, compare an integer to an integer that you borrowed.
+
+**Doesn't work:**
+```rust
+let y = &x
+5_u32 > y
+```
+**Need to do:**
+```rust
+let y = &x
+5_u32 > *y
+```

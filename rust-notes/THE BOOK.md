@@ -34,4 +34,5 @@ Notes from THE BOOK:
 	* [[Control Flow#Loops|Loops]]
 # Chapter 4 - Ownership
 * [[Ownership]]
-
+# Chapter 5 - Structs
+- [[Structs]]

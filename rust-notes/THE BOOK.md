@@ -8,7 +8,7 @@ Notes from THE BOOK:
 * [[Project - Hello world]]
 # Chapter 2 - Guessing Game
 * [[Project - Guessing Game]]
-* [[Match statements]]
+* [[Match expressions]]
 * [[Cargo#Dependencies]]
 * [[Variables]]
 * [[Imports]]
@@ -36,3 +36,7 @@ Notes from THE BOOK:
 * [[Ownership]]
 # Chapter 5 - Structs
 - [[Structs]]
+# Chapter 6 - Enums and Pattern Matching
+- [[Enums]]
+- [[Option Enum]]
+- [[If let statements]]

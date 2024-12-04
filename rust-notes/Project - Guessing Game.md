@@ -66,7 +66,7 @@ fn main() {
 See [[Variables]]
 
 #### Match statements
-![[Match statements]]
+![[Match expressions]]
 
 #### Loops
 ![[Control Flow#Loops]]
